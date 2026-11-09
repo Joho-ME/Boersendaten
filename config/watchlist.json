@@ -1,0 +1,13 @@
+{
+  "_hinweis": "Symbole im Alpha-Vantage-Format (.DEX = Xetra). Rolle: benchmark, markt, position, kandidat. Free-Tier: 25 Abfragen/Tag, pro Symbol 1-2 Abfragen.",
+  "symbole": [
+    {"symbol": "VWCE.DEX", "name": "Vanguard FTSE All-World (Benchmark)", "rolle": "benchmark", "sma200": true},
+    {"symbol": "EXS1.DEX", "name": "iShares Core DAX (DAX-Ersatz)", "rolle": "markt", "sma200": true},
+    {"symbol": "EUNL.DEX", "name": "iShares Core MSCI World (MSCI-World-Ersatz)", "rolle": "markt", "sma200": false},
+    {"symbol": "SPY", "name": "SPDR S&P 500 (S&P-500-Ersatz)", "rolle": "markt", "sma200": true},
+    {"symbol": "QQQ", "name": "Invesco QQQ (Nasdaq-100-Ersatz)", "rolle": "markt", "sma200": false}
+  ],
+  "devisen": [
+    {"von": "EUR", "nach": "USD"}
+  ]
+}
